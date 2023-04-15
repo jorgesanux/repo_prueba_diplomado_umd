@@ -22,3 +22,6 @@ avion = Avion("Boeing", "Avianca")
 
 avion.arrancar()
 avion.volar()
+
+carro = Carro(marca="Mercedez", modelo="2023")
+carro.arrancar()
