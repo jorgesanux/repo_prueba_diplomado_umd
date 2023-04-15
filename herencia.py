@@ -3,7 +3,7 @@ class Vehiculo:
         self.marca = marca
     
     def arrancar(self):
-        print("Arrancando")
+        print("Arrancando...")
 
 class Carro(Vehiculo):
     def __init__(self, marca, modelo) -> None:
