@@ -16,7 +16,7 @@ class Avion(Vehiculo):
         self.aerolinea = aerolinea
     
     def volar(self) -> None:
-        print("Volar")
+        print("Volando...")
 
 avion = Avion("Boeing", "Avianca")
 
